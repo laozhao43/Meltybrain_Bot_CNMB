@@ -8,10 +8,10 @@ Arduino_Coding: codes and header files
 * 飞盈佳乐分体50a电调*2
 * Adxl375 200g三轴加速计，串口输出
 * CK014红外线接收传感器
-* Teensy 3.2
+* Teensy 3.2 单片机
 * FS-RX2A Pro迷你接收机穿越机富斯FLYSKY
 * 5v 迷你BEC
-* 4xRGB LEDx2
+* 4xRGBLEDx2
 * Tattu 3.0 1300mah 4s
 
 ## 软件逻辑：
@@ -19,6 +19,8 @@ Arduino_Coding: codes and header files
 
 ## Python 曲线拟合：
 此部分目的为得到三个系数来校准转速计算公式
+横坐标为红外信标所计算出的转速，机器人每转一圈接收一次信标信号，从而推算出转速
+纵坐标是加速计测量的加速度，经过Python线性回归拟合点状图
 
 ![image](https://user-images.githubusercontent.com/64048267/183519794-784a3272-f966-4dce-a281-990ac1a16b9b.png)
 
