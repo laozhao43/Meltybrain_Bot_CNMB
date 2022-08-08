@@ -3,7 +3,7 @@ Arduino_Coding: codes and header files
 
 [测试和比赛视频（个人B站主页链接）](https://space.bilibili.com/3836113/video)
 *************
-电子设备列表：
+##[电子设备列表：]
 *2810 850kv无刷电机*2或tmotor f90*2
 *飞盈佳乐分体50a电调*2
 *Adxl375 200g三轴加速计，串口输出
