@@ -14,7 +14,6 @@ Arduino_Coding: codes and header files
 *4xRGB LEDx2
 *Tattu 3.0 1300mah 4s
 
-![image](https://user-images.githubusercontent.com/64048267/183511867-338c5e1c-03f2-45c7-a202-3b8ed3fb65c6.png)
 
 <img src="Documentations/map.PNG" width="800">
 比赛现场
