@@ -16,8 +16,8 @@ Arduino_Coding: codes and header files
 
 ## 软件逻辑：
 <img src="Documentations/map.PNG" width="800">
-## Python 曲线拟合
 
+## Python 曲线拟合：
 ![image](https://user-images.githubusercontent.com/64048267/183519794-784a3272-f966-4dce-a281-990ac1a16b9b.png)
 
 ## 比赛现场
