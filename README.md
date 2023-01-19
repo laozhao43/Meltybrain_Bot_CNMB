@@ -26,7 +26,7 @@ Arduino_Coding: codes and header files
 * Battery: Tattu 3.0 1300mah 4s
 
 ## Control logic：
-<img src="Documentations/map.PNG" width="800">
+<img src="Documentations/map2.PNG" width="800">
 
 ## Python 曲线拟合：
 此部分目的为得到三个系数来校准转速计算公式
