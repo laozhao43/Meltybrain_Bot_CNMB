@@ -1,7 +1,7 @@
 # Meltybrain_Bot_CNMB
 Arduino_Coding: codes and header files
 
-[测试和比赛视频（个人B站主页链接）](https://space.bilibili.com/3836113/video)
+[Testing and fight 测试和比赛视频（个人B站主页链接）](https://space.bilibili.com/3836113/video)
 *************
 ## 电子设备列表：
 * 2810 850kv无刷电机*2或tmotor f90*2
@@ -28,13 +28,18 @@ Arduino_Coding: codes and header files
 ## Control logic：
 <img src="Documentations/map2.PNG" width="800">
 
-## Python 曲线拟合：
+## Python curve fit曲线拟合：
 此部分目的为得到三个系数来校准转速计算公式
 横坐标为红外信标所计算出的转速，机器人每转一圈接收一次信标信号，从而推算出转速
 纵坐标是加速计测量的加速度，经过Python线性回归拟合点状图
+We will obtain 3 constant terms to calibrate the accelerometer
+The x axis is obtained from IR receiver. It give rising edge at each time it sense from IR beacon, then calculate angular velocity
+The y axis is obtained from accelerometer
+Use python to find best fit
+
 
 ![image](https://user-images.githubusercontent.com/64048267/183519794-784a3272-f966-4dce-a281-990ac1a16b9b.png)
 
-## 比赛现场
+## 比赛现场 During Competition
 <img src="Documentations/bot1.jpg" width="500">
 <img src="Documentations/bot2.jpg" width="500">
