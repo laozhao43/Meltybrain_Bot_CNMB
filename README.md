@@ -14,7 +14,18 @@ Arduino_Coding: codes and header files
 * 4xRGBLEDx2
 * Tattu 3.0 1300mah 4s
 
-## 软件逻辑：
+## Electronics：
+* 2810 850kv brushless motor *2 or tmotor f90*2
+* ESC: 50a*2
+* Adxl375 200g IMU
+* CK014 IR reciever
+* Teensy 3.2 
+* Reciever: FS-RX2A Pro FLYSKY
+* 5v mini BEC
+* LED: 4xRGBLEDx2
+* Battery: Tattu 3.0 1300mah 4s
+
+## Control logic：
 <img src="Documentations/map.PNG" width="800">
 
 ## Python 曲线拟合：
